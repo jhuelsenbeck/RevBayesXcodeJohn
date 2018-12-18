@@ -8,5 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Document : NSPersistentDocument
+@interface Document : NSDocument
+
+
 @end
+

@@ -7,71 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2277A77021C87EB800C77E5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277A76F21C87EB800C77E5D /* AppDelegate.m */; };
-		2277A77321C87EB800C77E5D /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277A77221C87EB800C77E5D /* Document.m */; };
-		2277A77621C87EB800C77E5D /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2277A77421C87EB800C77E5D /* Document.xib */; };
-		2277A77921C87EB800C77E5D /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2277A77721C87EB800C77E5D /* Document.xcdatamodeld */; };
-		2277A77B21C87EB900C77E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2277A77A21C87EB900C77E5D /* Assets.xcassets */; };
-		2277A77E21C87EB900C77E5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2277A77C21C87EB900C77E5D /* MainMenu.xib */; };
-		2277A78121C87EB900C77E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277A78021C87EB900C77E5D /* main.m */; };
-		2277A78C21C87EB900C77E5D /* RevBayesJohnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277A78B21C87EB900C77E5D /* RevBayesJohnTests.m */; };
-		2277A79721C87EB900C77E5D /* RevBayesJohnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277A79621C87EB900C77E5D /* RevBayesJohnUITests.m */; };
+		2218576921C8885D002DA961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218576821C8885D002DA961 /* AppDelegate.m */; };
+		2218576C21C8885D002DA961 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218576B21C8885D002DA961 /* Document.m */; };
+		2218576F21C8885D002DA961 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2218576D21C8885D002DA961 /* Document.xib */; };
+		2218577121C8885E002DA961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2218577021C8885E002DA961 /* Assets.xcassets */; };
+		2218577421C8885E002DA961 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2218577221C8885E002DA961 /* MainMenu.xib */; };
+		2218577721C8885E002DA961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218577621C8885E002DA961 /* main.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2277A78821C87EB900C77E5D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2277A76321C87EB800C77E5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2277A76A21C87EB800C77E5D;
-			remoteInfo = RevBayesJohn;
-		};
-		2277A79321C87EB900C77E5D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2277A76321C87EB800C77E5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2277A76A21C87EB800C77E5D;
-			remoteInfo = RevBayesJohn;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		2277A76B21C87EB800C77E5D /* RevBayesJohn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevBayesJohn.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2277A76E21C87EB800C77E5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2277A76F21C87EB800C77E5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2277A77121C87EB800C77E5D /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		2277A77221C87EB800C77E5D /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
-		2277A77521C87EB800C77E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
-		2277A77821C87EB800C77E5D /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
-		2277A77A21C87EB900C77E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2277A77D21C87EB900C77E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		2277A77F21C87EB900C77E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2277A78021C87EB900C77E5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2277A78221C87EB900C77E5D /* RevBayesJohn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RevBayesJohn.entitlements; sourceTree = "<group>"; };
-		2277A78721C87EB900C77E5D /* RevBayesJohnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevBayesJohnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2277A78B21C87EB900C77E5D /* RevBayesJohnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevBayesJohnTests.m; sourceTree = "<group>"; };
-		2277A78D21C87EB900C77E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2277A79221C87EB900C77E5D /* RevBayesJohnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevBayesJohnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2277A79621C87EB900C77E5D /* RevBayesJohnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevBayesJohnUITests.m; sourceTree = "<group>"; };
-		2277A79821C87EB900C77E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2218576421C8885D002DA961 /* RevBayesJohn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevBayesJohn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2218576721C8885D002DA961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2218576821C8885D002DA961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2218576A21C8885D002DA961 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		2218576B21C8885D002DA961 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		2218576E21C8885D002DA961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		2218577021C8885E002DA961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2218577321C8885E002DA961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2218577521C8885E002DA961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2218577621C8885E002DA961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2218577821C8885E002DA961 /* RevBayesJohn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RevBayesJohn.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2277A76821C87EB800C77E5D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2277A78421C87EB900C77E5D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2277A78F21C87EB900C77E5D /* Frameworks */ = {
+		2218576121C8885D002DA961 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,72 +40,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2277A76221C87EB800C77E5D = {
+		2218575B21C8885D002DA961 = {
 			isa = PBXGroup;
 			children = (
-				2277A76D21C87EB800C77E5D /* RevBayesJohn */,
-				2277A78A21C87EB900C77E5D /* RevBayesJohnTests */,
-				2277A79521C87EB900C77E5D /* RevBayesJohnUITests */,
-				2277A76C21C87EB800C77E5D /* Products */,
+				2218576621C8885D002DA961 /* RevBayesJohn */,
+				2218576521C8885D002DA961 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2277A76C21C87EB800C77E5D /* Products */ = {
+		2218576521C8885D002DA961 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2277A76B21C87EB800C77E5D /* RevBayesJohn.app */,
-				2277A78721C87EB900C77E5D /* RevBayesJohnTests.xctest */,
-				2277A79221C87EB900C77E5D /* RevBayesJohnUITests.xctest */,
+				2218576421C8885D002DA961 /* RevBayesJohn.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2277A76D21C87EB800C77E5D /* RevBayesJohn */ = {
+		2218576621C8885D002DA961 /* RevBayesJohn */ = {
 			isa = PBXGroup;
 			children = (
-				2277A76E21C87EB800C77E5D /* AppDelegate.h */,
-				2277A76F21C87EB800C77E5D /* AppDelegate.m */,
-				2277A77121C87EB800C77E5D /* Document.h */,
-				2277A77221C87EB800C77E5D /* Document.m */,
-				2277A77421C87EB800C77E5D /* Document.xib */,
-				2277A77A21C87EB900C77E5D /* Assets.xcassets */,
-				2277A77C21C87EB900C77E5D /* MainMenu.xib */,
-				2277A77F21C87EB900C77E5D /* Info.plist */,
-				2277A78021C87EB900C77E5D /* main.m */,
-				2277A78221C87EB900C77E5D /* RevBayesJohn.entitlements */,
-				2277A77721C87EB800C77E5D /* Document.xcdatamodeld */,
+				2218576721C8885D002DA961 /* AppDelegate.h */,
+				2218576821C8885D002DA961 /* AppDelegate.m */,
+				2218576A21C8885D002DA961 /* Document.h */,
+				2218576B21C8885D002DA961 /* Document.m */,
+				2218576D21C8885D002DA961 /* Document.xib */,
+				2218577021C8885E002DA961 /* Assets.xcassets */,
+				2218577221C8885E002DA961 /* MainMenu.xib */,
+				2218577521C8885E002DA961 /* Info.plist */,
+				2218577621C8885E002DA961 /* main.m */,
+				2218577821C8885E002DA961 /* RevBayesJohn.entitlements */,
 			);
 			path = RevBayesJohn;
-			sourceTree = "<group>";
-		};
-		2277A78A21C87EB900C77E5D /* RevBayesJohnTests */ = {
-			isa = PBXGroup;
-			children = (
-				2277A78B21C87EB900C77E5D /* RevBayesJohnTests.m */,
-				2277A78D21C87EB900C77E5D /* Info.plist */,
-			);
-			path = RevBayesJohnTests;
-			sourceTree = "<group>";
-		};
-		2277A79521C87EB900C77E5D /* RevBayesJohnUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2277A79621C87EB900C77E5D /* RevBayesJohnUITests.m */,
-				2277A79821C87EB900C77E5D /* Info.plist */,
-			);
-			path = RevBayesJohnUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2277A76A21C87EB800C77E5D /* RevBayesJohn */ = {
+		2218576321C8885D002DA961 /* RevBayesJohn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2277A79B21C87EB900C77E5D /* Build configuration list for PBXNativeTarget "RevBayesJohn" */;
+			buildConfigurationList = 2218577B21C8885E002DA961 /* Build configuration list for PBXNativeTarget "RevBayesJohn" */;
 			buildPhases = (
-				2277A76721C87EB800C77E5D /* Sources */,
-				2277A76821C87EB800C77E5D /* Frameworks */,
-				2277A76921C87EB800C77E5D /* Resources */,
+				2218576021C8885D002DA961 /* Sources */,
+				2218576121C8885D002DA961 /* Frameworks */,
+				2218576221C8885D002DA961 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,68 +90,24 @@
 			);
 			name = RevBayesJohn;
 			productName = RevBayesJohn;
-			productReference = 2277A76B21C87EB800C77E5D /* RevBayesJohn.app */;
+			productReference = 2218576421C8885D002DA961 /* RevBayesJohn.app */;
 			productType = "com.apple.product-type.application";
-		};
-		2277A78621C87EB900C77E5D /* RevBayesJohnTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2277A79E21C87EB900C77E5D /* Build configuration list for PBXNativeTarget "RevBayesJohnTests" */;
-			buildPhases = (
-				2277A78321C87EB900C77E5D /* Sources */,
-				2277A78421C87EB900C77E5D /* Frameworks */,
-				2277A78521C87EB900C77E5D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2277A78921C87EB900C77E5D /* PBXTargetDependency */,
-			);
-			name = RevBayesJohnTests;
-			productName = RevBayesJohnTests;
-			productReference = 2277A78721C87EB900C77E5D /* RevBayesJohnTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2277A79121C87EB900C77E5D /* RevBayesJohnUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2277A7A121C87EB900C77E5D /* Build configuration list for PBXNativeTarget "RevBayesJohnUITests" */;
-			buildPhases = (
-				2277A78E21C87EB900C77E5D /* Sources */,
-				2277A78F21C87EB900C77E5D /* Frameworks */,
-				2277A79021C87EB900C77E5D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2277A79421C87EB900C77E5D /* PBXTargetDependency */,
-			);
-			name = RevBayesJohnUITests;
-			productName = RevBayesJohnUITests;
-			productReference = 2277A79221C87EB900C77E5D /* RevBayesJohnUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2277A76321C87EB800C77E5D /* Project object */ = {
+		2218575C21C8885D002DA961 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "John Huelsenbeck";
 				TargetAttributes = {
-					2277A76A21C87EB800C77E5D = {
+					2218576321C8885D002DA961 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					2277A78621C87EB900C77E5D = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 2277A76A21C87EB800C77E5D;
-					};
-					2277A79121C87EB900C77E5D = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 2277A76A21C87EB800C77E5D;
 					};
 				};
 			};
-			buildConfigurationList = 2277A76621C87EB800C77E5D /* Build configuration list for PBXProject "RevBayesJohn" */;
+			buildConfigurationList = 2218575F21C8885D002DA961 /* Build configuration list for PBXProject "RevBayesJohn" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,101 +115,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 2277A76221C87EB800C77E5D;
-			productRefGroup = 2277A76C21C87EB800C77E5D /* Products */;
+			mainGroup = 2218575B21C8885D002DA961;
+			productRefGroup = 2218576521C8885D002DA961 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2277A76A21C87EB800C77E5D /* RevBayesJohn */,
-				2277A78621C87EB900C77E5D /* RevBayesJohnTests */,
-				2277A79121C87EB900C77E5D /* RevBayesJohnUITests */,
+				2218576321C8885D002DA961 /* RevBayesJohn */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2277A76921C87EB800C77E5D /* Resources */ = {
+		2218576221C8885D002DA961 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2277A77B21C87EB900C77E5D /* Assets.xcassets in Resources */,
-				2277A77621C87EB800C77E5D /* Document.xib in Resources */,
-				2277A77E21C87EB900C77E5D /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2277A78521C87EB900C77E5D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2277A79021C87EB900C77E5D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2218577121C8885E002DA961 /* Assets.xcassets in Resources */,
+				2218576F21C8885D002DA961 /* Document.xib in Resources */,
+				2218577421C8885E002DA961 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2277A76721C87EB800C77E5D /* Sources */ = {
+		2218576021C8885D002DA961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2277A77921C87EB800C77E5D /* Document.xcdatamodeld in Sources */,
-				2277A77321C87EB800C77E5D /* Document.m in Sources */,
-				2277A78121C87EB900C77E5D /* main.m in Sources */,
-				2277A77021C87EB800C77E5D /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2277A78321C87EB900C77E5D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2277A78C21C87EB900C77E5D /* RevBayesJohnTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2277A78E21C87EB900C77E5D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2277A79721C87EB900C77E5D /* RevBayesJohnUITests.m in Sources */,
+				2218576C21C8885D002DA961 /* Document.m in Sources */,
+				2218577721C8885E002DA961 /* main.m in Sources */,
+				2218576921C8885D002DA961 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2277A78921C87EB900C77E5D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2277A76A21C87EB800C77E5D /* RevBayesJohn */;
-			targetProxy = 2277A78821C87EB900C77E5D /* PBXContainerItemProxy */;
-		};
-		2277A79421C87EB900C77E5D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2277A76A21C87EB800C77E5D /* RevBayesJohn */;
-			targetProxy = 2277A79321C87EB900C77E5D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		2277A77421C87EB800C77E5D /* Document.xib */ = {
+		2218576D21C8885D002DA961 /* Document.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2277A77521C87EB800C77E5D /* Base */,
+				2218576E21C8885D002DA961 /* Base */,
 			);
 			name = Document.xib;
 			sourceTree = "<group>";
 		};
-		2277A77C21C87EB900C77E5D /* MainMenu.xib */ = {
+		2218577221C8885E002DA961 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2277A77D21C87EB900C77E5D /* Base */,
+				2218577321C8885E002DA961 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -325,7 +171,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2277A79921C87EB900C77E5D /* Debug */ = {
+		2218577921C8885E002DA961 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -384,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		2277A79A21C87EB900C77E5D /* Release */ = {
+		2218577A21C8885E002DA961 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -436,7 +282,7 @@
 			};
 			name = Release;
 		};
-		2277A79C21C87EB900C77E5D /* Debug */ = {
+		2218577C21C8885E002DA961 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -453,7 +299,7 @@
 			};
 			name = Debug;
 		};
-		2277A79D21C87EB900C77E5D /* Release */ = {
+		2218577D21C8885E002DA961 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -467,132 +313,31 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "UC-Berkeley.RevBayesJohn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		2277A79F21C87EB900C77E5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RevBayesJohnTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "UC-Berkeley.RevBayesJohnTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevBayesJohn.app/Contents/MacOS/RevBayesJohn";
-			};
-			name = Debug;
-		};
-		2277A7A021C87EB900C77E5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RevBayesJohnTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "UC-Berkeley.RevBayesJohnTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevBayesJohn.app/Contents/MacOS/RevBayesJohn";
-			};
-			name = Release;
-		};
-		2277A7A221C87EB900C77E5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RevBayesJohnUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "UC-Berkeley.RevBayesJohnUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = RevBayesJohn;
-			};
-			name = Debug;
-		};
-		2277A7A321C87EB900C77E5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RevBayesJohnUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "UC-Berkeley.RevBayesJohnUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = RevBayesJohn;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2277A76621C87EB800C77E5D /* Build configuration list for PBXProject "RevBayesJohn" */ = {
+		2218575F21C8885D002DA961 /* Build configuration list for PBXProject "RevBayesJohn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2277A79921C87EB900C77E5D /* Debug */,
-				2277A79A21C87EB900C77E5D /* Release */,
+				2218577921C8885E002DA961 /* Debug */,
+				2218577A21C8885E002DA961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2277A79B21C87EB900C77E5D /* Build configuration list for PBXNativeTarget "RevBayesJohn" */ = {
+		2218577B21C8885E002DA961 /* Build configuration list for PBXNativeTarget "RevBayesJohn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2277A79C21C87EB900C77E5D /* Debug */,
-				2277A79D21C87EB900C77E5D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2277A79E21C87EB900C77E5D /* Build configuration list for PBXNativeTarget "RevBayesJohnTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2277A79F21C87EB900C77E5D /* Debug */,
-				2277A7A021C87EB900C77E5D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2277A7A121C87EB900C77E5D /* Build configuration list for PBXNativeTarget "RevBayesJohnUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2277A7A221C87EB900C77E5D /* Debug */,
-				2277A7A321C87EB900C77E5D /* Release */,
+				2218577C21C8885E002DA961 /* Debug */,
+				2218577D21C8885E002DA961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2277A77721C87EB800C77E5D /* Document.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2277A77821C87EB800C77E5D /* Document.xcdatamodel */,
-			);
-			currentVersion = 2277A77821C87EB800C77E5D /* Document.xcdatamodel */;
-			path = Document.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 2277A76321C87EB800C77E5D /* Project object */;
+	rootObject = 2218575C21C8885D002DA961 /* Project object */;
 }
